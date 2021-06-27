@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather/screen/home_page.dart';
+import 'package:weather/screen/home/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,6 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: HomePage(),
       theme: ThemeData(
           textTheme: Theme.of(context).textTheme.apply(
