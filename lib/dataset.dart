@@ -25,6 +25,10 @@ class Weather {
       this.location});
 }
 
+String appId = "cbd770ea6123a3f6cd49b0ba158d794f";
+
+//http://api.openweathermap.org/data/2.5/onecall?lat=60.036069&lon=30.398587&exclude=minutely&units=metric&appid=cbd770ea6123a3f6cd49b0ba158d794f&lang=ru
+
 List<Weather> todayWeather = [
   Weather(current: 23, image: "assets/rainy_2d.png", time: "10:00"),
   Weather(current: 21, image: "assets/thunder_2d.png", time: "11:00"),
